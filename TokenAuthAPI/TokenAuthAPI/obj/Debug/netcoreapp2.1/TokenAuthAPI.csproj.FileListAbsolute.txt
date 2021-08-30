@@ -1,0 +1,14 @@
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\bin\Debug\netcoreapp2.1\TokenAuthAPI.deps.json
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\bin\Debug\netcoreapp2.1\TokenAuthAPI.runtimeconfig.json
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\bin\Debug\netcoreapp2.1\TokenAuthAPI.runtimeconfig.dev.json
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\bin\Debug\netcoreapp2.1\TokenAuthAPI.dll
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\bin\Debug\netcoreapp2.1\TokenAuthAPI.pdb
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\obj\Debug\netcoreapp2.1\TokenAuthAPI.csprojAssemblyReference.cache
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\obj\Debug\netcoreapp2.1\TokenAuthAPI.csproj.CoreCompileInputs.cache
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\obj\Debug\netcoreapp2.1\TokenAuthAPI.RazorAssemblyInfo.cache
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\obj\Debug\netcoreapp2.1\TokenAuthAPI.RazorAssemblyInfo.cs
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\obj\Debug\netcoreapp2.1\TokenAuthAPI.AssemblyInfoInputs.cache
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\obj\Debug\netcoreapp2.1\TokenAuthAPI.AssemblyInfo.cs
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\obj\Debug\netcoreapp2.1\TokenAuthAPI.RazorTargetAssemblyInfo.cache
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\obj\Debug\netcoreapp2.1\TokenAuthAPI.dll
+C:\temp\gitprojects\TokenAuthAPI\TokenAuthAPI\obj\Debug\netcoreapp2.1\TokenAuthAPI.pdb
