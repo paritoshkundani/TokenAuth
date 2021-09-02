@@ -20,6 +20,8 @@ namespace TokenAuthAPI
 {
     public class Startup
     {
+        private readonly string apiCORS = "_apiCORS";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -44,7 +46,19 @@ namespace TokenAuthAPI
                 .RequireAuthenticatedUser()
                 .Build();
 
-            services.AddMvcCore(options => options.Filters.Add(new AuthorizeFilter(defaultPolicy)));
+            services
+                .AddCors(options =>
+                {
+                    options.AddPolicy(apiCORS,
+                    builder =>
+                    {
+                        builder.AllowAnyHeader();
+                        builder.AllowAnyMethod();
+                        builder.AllowAnyOrigin();
+                        builder.WithExposedHeaders("WWW-Authenticate"); //---Mahidhar: Check for authenticaiton
+                  });
+                })
+                .AddMvcCore(options => options.Filters.Add(new AuthorizeFilter(defaultPolicy)));
 
             services.AddAuthentication(x =>
             {
@@ -69,6 +83,8 @@ namespace TokenAuthAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseCors(apiCORS);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
